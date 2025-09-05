@@ -1,0 +1,21 @@
+CLAUDE.md
+
+# Build outputs
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# User-specific files
+*.user
+*.suo
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Connection strings and secrets
+appsettings.*.json
+!appsettings.json
